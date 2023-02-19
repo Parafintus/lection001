@@ -5,12 +5,12 @@ string username = Console.ReadLine ();
 if(username.ToLower() == "Маша")
 {
 
-Сonsole.WriteLine("Ура, это же МАША!");
+Console.Write("Ура, это же МАША!");
 }
 
 else
 {
 
-Сonsole.Write("Привет, ");
-Сonsole.WriteLine(username);
+Console.Write("Привет, ");
+Console.WriteLine(username);
 }
